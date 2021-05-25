@@ -110,19 +110,87 @@ class _BottomWidget extends StatelessWidget {
             ],
           ),
         ),
+        Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(child: _CalcButtonWidget()),
+            ],
+          ),
+        ),
+        Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(child: _CalcButtonWidget()),
+            ],
+          ),
+        ),
+        Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(child: _CalcButtonWidget()),
+            ],
+          ),
+        ),
+        Expanded(
+          child: Row(
+            children: [
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(
+                child: _CalcButtonWidget(),
+              ),
+              Expanded(child: _CalcButtonWidget()),
+            ],
+          ),
+        ),
       ],
     );
   }
 }
 
 class _CalcButtonWidget extends StatelessWidget {
+  final CalcButton calcButton;
+
   @override
   Widget build(BuildContext context) {
     return Center(
       child: Text(
-        'BTN',
+        'BTN2',
         style: TextStyle(fontSize: 34, fontWeight: FontWeight.w500),
       ),
     );
   }
 }
+
+//24:49
